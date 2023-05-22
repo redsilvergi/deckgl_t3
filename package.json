@@ -1,5 +1,4 @@
 {
-  "homepage": "http://redsilvergi.github.io/deckgl_t3",
   "dependencies": {
     "@loaders.gl/csv": "^3.2.4",
     "@loaders.gl/json": "^3.2.4",
@@ -23,10 +22,8 @@
   },
   "scripts": {
     "dev": "webpack --mode development",
-    "start": "webpack-dev-server --mode development --open",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --open"
   },
   "keywords": [],
   "author": "",
