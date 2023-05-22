@@ -11,10 +11,6 @@ module.exports = {
   plugins: [
     new HTMLWebpackPlugin({
       template: path.resolve(__dirname, "./src", "index.html"),
-      // Pass environment variables to the HTML template
-      templateParameters: {
-        mapboxToken: process.env.MAPBOX_TOKEN,
-      },
     }),
   ],
   output: { path: path.resolve(__dirname, "./dist"), filename: "main.js" },
